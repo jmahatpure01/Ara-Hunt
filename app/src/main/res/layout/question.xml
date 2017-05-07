@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="xyz.tectalk.jmaha.ara_hunt.question"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:drawable/dialog_holo_dark_frame"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/qtitl"
+        android:id="@+id/textView2"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="21sp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ques"
+        android:id="@+id/ques"
+        android:textColor="@color/bright_foreground_material_dark"
+        android:textSize="22sp"
+        android:clickable="true"
+        android:gravity="center_horizontal"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginTop="57dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op1"
+        android:id="@+id/op1"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:background="@drawable/select2"
+        android:textStyle="bold"
+        android:layout_below="@+id/ques"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op1"
+        android:id="@+id/op2"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:background="@drawable/select2"
+        android:textStyle="bold"
+        android:layout_below="@+id/op1"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op1"
+        android:id="@+id/op3"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:background="@drawable/select2"
+        android:textStyle="bold"
+        android:layout_below="@+id/op2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/op1"
+        android:id="@+id/op4"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:background="@drawable/select2"
+        android:textStyle="bold"
+        android:layout_below="@+id/op3"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"/>
+
+
+
+</RelativeLayout>
+    <TextView
+        android:layout_width="2010dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:id="@+id/t1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/btnst"
+        android:paddingLeft="70dp"
+        android:textSize="20sp"
+        android:textColor="#060606"
+        android:paddingTop="10dp" />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_launcher"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/imageView4" />
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark"
+    tools:context="xyz.tectalk.jmaha.ara_hunt.map">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/code"
+        android:layout_gravity="start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/chkcode"
+        android:layout_toStartOf="@+id/chkcode"
+        android:layout_marginTop="2dp"
+        android:typeface="normal"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:inputType="textCapCharacters"
+        android:hint="@string/code"
+        android:drawableLeft="@drawable/technology"
+        android:drawableStart="@drawable/technology"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:layout_alignTop="@+id/code"
+        android:layout_toLeftOf="@+id/chkcode"
+        android:layout_toStartOf="@+id/chkcode"
+        android:background="@drawable/computer"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="6dp"/>
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:text="@string/chkco"
+        android:id="@+id/chkcode"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/abc_primary_text_material_light"
+        android:textStyle="normal"
+        android:layout_marginTop="2dp"
+        />
+
+  <!--  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/code" /> -->
+    <fragment
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/chkcode"
+        android:id="@+id/map"
+        />
+
+
+
+</RelativeLayout>

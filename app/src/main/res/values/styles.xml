@@ -1,0 +1,9 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="full" parent="android:Theme.WithActionBar"/>
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar"/>
+    <!-- Customize your theme here. -->
+
+
+</resources>
